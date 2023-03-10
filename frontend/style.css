@@ -1,0 +1,66 @@
+.title {
+    color: red;
+    margin: 0;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.ui-dialog-titlebar.ui-widget-header { background-color: red; background-image: none; }
+
+.dialog-container { width: 100%; border-radius: 5px; }
+.dialog-container .dialog-paragraph { padding: 20px; border: 1px solid #fff; border-radius: 5px; }
+
+.input-field {
+    width: 120px;
+    border-radius: 5px;
+    height: 25px;
+    display: inline-block;
+}
+
+.label {
+    width: 120px;
+    display: inline-block;
+    font-weight: 600;
+
+}
+
+.section.age {
+    display: none;
+}
+
+.section.age.active {
+    display: block;
+}
+
+.button-submit {
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    background-image: url('images/image-one.jpg');
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#someselector {
+    all: unset;
+    margin-top: -22px;
+    min-height: 100vh;
+  }
+.section.hide {
+    display: none;
+}
+
+.section.show {
+    display: block;
+}
